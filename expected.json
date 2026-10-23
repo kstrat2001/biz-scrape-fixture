@@ -1,0 +1,189 @@
+{
+  "wordpress": {
+    "business_name": [
+      "Copperleaf Cycle Works"
+    ],
+    "phone": [
+      "(541) 555-0142",
+      "tel:+15415550142",
+      "+15415550142"
+    ],
+    "email": [
+      "hello@copperleaf-cycles.example"
+    ],
+    "address": [
+      "418 Tannery Row, Unit B\nMarrow Falls, OR 97999",
+      "418 Tannery Row, Unit B; Marrow Falls, OR 97999"
+    ],
+    "hours": [
+      "Tue–Fri 9:30am–6pm\nSat 9am–4pm\nSun & Mon closed",
+      "Tue–Fri 9:30am–6pm\nSat 9am–4pm\nSun & Mon closed\nHoliday hours: closed Thanksgiving Day and December 25.",
+      "Tue–Fri 9:30am–6pm\nSat 9am–4pm\nSun & Mon closed; Holiday hours: closed Thanksgiving Day and December 25.",
+      "Tue–Fri 9:30am–6pm; Sat 9am–4pm; Sun & Mon closed",
+      "Tue–Fri 9:30am–6pm; Sat 9am–4pm; Sun & Mon closed\nHoliday hours: closed Thanksgiving Day and December 25.",
+      "Tue–Fri 9:30am–6pm; Sat 9am–4pm; Sun & Mon closed; Holiday hours: closed Thanksgiving Day and December 25."
+    ],
+    "services": [
+      [
+        "Basic tune-up"
+      ],
+      [
+        "Full overhaul"
+      ],
+      [
+        "Flat tire repair (tube included)",
+        "Flat tire repair"
+      ],
+      [
+        "Wheel truing"
+      ],
+      [
+        "Brake service"
+      ],
+      [
+        "Bike fitting"
+      ],
+      [
+        "E-bike service"
+      ]
+    ],
+    "area_served": [
+      [
+        "Marrow Falls"
+      ],
+      [
+        "Linden Valley",
+        "the Linden Valley"
+      ]
+    ],
+    "prices": [
+      [
+        "$79"
+      ],
+      [
+        "from $189"
+      ],
+      [
+        "$15"
+      ],
+      [
+        "$25 per wheel"
+      ],
+      [
+        "$35 per wheel"
+      ],
+      [
+        "$120"
+      ]
+    ],
+    "optional": {
+      "services": [
+        [
+          "free safety check"
+        ],
+        [
+          "same-day service"
+        ]
+      ]
+    }
+  },
+  "wix": {
+    "business_name": [
+      "Copperleaf Cycle Works"
+    ],
+    "phone": [
+      "541-555-0142",
+      "tel:5415550142",
+      "5415550142"
+    ],
+    "email": [
+      "hello@copperleaf-cycles.example"
+    ],
+    "address": [
+      "418 Tannery Row, Unit B\nMarrow Falls, OR 97999",
+      "418 Tannery Row, Unit B; Marrow Falls, OR 97999"
+    ],
+    "hours": [
+      "Monday: Closed\nTuesday – Friday: 9:30 AM – 6:00 PM\nSaturday: 9:00 AM – 4:00 PM\nSunday: Closed",
+      "Monday: Closed\nTuesday – Friday: 9:30 AM – 6:00 PM\nSaturday: 9:00 AM – 4:00 PM\nSunday: Closed\nHoliday hours: closed Thanksgiving Day and December 25.",
+      "Monday: Closed\nTuesday – Friday: 9:30 AM – 6:00 PM\nSaturday: 9:00 AM – 4:00 PM\nSunday: Closed; Holiday hours: closed Thanksgiving Day and December 25.",
+      "Monday: Closed; Tuesday – Friday: 9:30 AM – 6:00 PM; Saturday: 9:00 AM – 4:00 PM; Sunday: Closed",
+      "Monday: Closed; Tuesday – Friday: 9:30 AM – 6:00 PM; Saturday: 9:00 AM – 4:00 PM; Sunday: Closed\nHoliday hours: closed Thanksgiving Day and December 25.",
+      "Monday: Closed; Tuesday – Friday: 9:30 AM – 6:00 PM; Saturday: 9:00 AM – 4:00 PM; Sunday: Closed; Holiday hours: closed Thanksgiving Day and December 25.",
+      "Tue – Fri: 9:30 AM – 6:00 PM\nSat: 9:00 AM – 4:00 PM\nSun – Mon: Closed",
+      "Tue – Fri: 9:30 AM – 6:00 PM\nSat: 9:00 AM – 4:00 PM\nSun – Mon: Closed\nHoliday hours: closed Thanksgiving Day and December 25.",
+      "Tue – Fri: 9:30 AM – 6:00 PM\nSat: 9:00 AM – 4:00 PM\nSun – Mon: Closed; Holiday hours: closed Thanksgiving Day and December 25.",
+      "Tue – Fri: 9:30 AM – 6:00 PM; Sat: 9:00 AM – 4:00 PM; Sun – Mon: Closed",
+      "Tue – Fri: 9:30 AM – 6:00 PM; Sat: 9:00 AM – 4:00 PM; Sun – Mon: Closed\nHoliday hours: closed Thanksgiving Day and December 25.",
+      "Tue – Fri: 9:30 AM – 6:00 PM; Sat: 9:00 AM – 4:00 PM; Sun – Mon: Closed; Holiday hours: closed Thanksgiving Day and December 25."
+    ],
+    "services": [
+      [
+        "Basic Tune-Up"
+      ],
+      [
+        "Full Overhaul"
+      ],
+      [
+        "Flat Tire Repair"
+      ],
+      [
+        "Wheel Truing"
+      ],
+      [
+        "Brake Service"
+      ],
+      [
+        "Bike Fitting"
+      ],
+      [
+        "E-Bike Service"
+      ]
+    ],
+    "area_served": [
+      [
+        "Marrow Falls"
+      ],
+      [
+        "Linden Valley",
+        "the Linden Valley"
+      ]
+    ],
+    "prices": [
+      [
+        "$79",
+        "$79 79 US dollars"
+      ],
+      [
+        "from $189",
+        "from $189 from 189 US dollars"
+      ],
+      [
+        "$15",
+        "$15 15 US dollars"
+      ],
+      [
+        "$25",
+        "$25 25 US dollars"
+      ],
+      [
+        "$35",
+        "$35 35 US dollars"
+      ],
+      [
+        "$120",
+        "$120 120 US dollars"
+      ]
+    ],
+    "optional": {
+      "services": [
+        [
+          "free safety check"
+        ],
+        [
+          "same-day service"
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "biz-scrape-easy",
+  "satisfies": "biz-scrape-easy@1.0",
+  "tier": "easy",
+  "description": "The model is handed the site as text (home page plus its linked services, contact and about pages, rendered once from the committed site and committed with its hash) and answers web-probe's questions as JSON. No tools, no fetching, nothing converted on the machine that runs it.",
+  "role": "web-probe",
+  "role_sha256": {
+    "roles/web-probe.json": "553e7d60c5bc01d1c5328dcbff97727a51d461a1e6f419475f55d67aacd37320",
+    "roles/web-probe.md": "8f387e8607bec63e3cb293989fffad7df7442153fb2b7d7583246de2da78d670"
+  },
+  "reply_room": "context: the run's context window (the profile's n_ctx) minus the prompt. Context is the run's configuration, recorded with it, not part of the eval.",
+  "cases": [
+    {
+      "id": "wordpress",
+      "input": "inputs/easy/wordpress.txt"
+    },
+    {
+      "id": "wix",
+      "input": "inputs/easy/wix.txt"
+    }
+  ],
+  "pass": "every case passes: all eight graded fields match expected.json exactly (the lab workloads in workloads/ carry the same rule; grade.py is the stdlib reference)"
+}

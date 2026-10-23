@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.1",
+  "workload": {
+    "id": "biz-scrape-easy-wordpress",
+    "provider": "prompt",
+    "role": "web-probe",
+    "requires_fixture": "biz-scrape-fixture@1.0",
+    "promptFile": "inputs/easy/wordpress.txt",
+    "replyRoom": "context",
+    "verify": {
+      "expect": {
+        "business_name": "Copperleaf Cycle Works",
+        "phone": {
+          "anyOf": [
+            "(541) 555-0142",
+            "tel:+15415550142",
+            "+15415550142"
+          ]
+        },
+        "email": "hello@copperleaf-cycles.example",
+        "address": {
+          "anyOf": [
+            "418 Tannery Row, Unit B\nMarrow Falls, OR 97999",
+            "418 Tannery Row, Unit B; Marrow Falls, OR 97999"
+          ]
+        },
+        "hours": {
+          "anyOf": [
+            "Tue–Fri 9:30am–6pm\nSat 9am–4pm\nSun & Mon closed",
+            "Tue–Fri 9:30am–6pm\nSat 9am–4pm\nSun & Mon closed\nHoliday hours: closed Thanksgiving Day and December 25.",
+            "Tue–Fri 9:30am–6pm\nSat 9am–4pm\nSun & Mon closed; Holiday hours: closed Thanksgiving Day and December 25.",
+            "Tue–Fri 9:30am–6pm; Sat 9am–4pm; Sun & Mon closed",
+            "Tue–Fri 9:30am–6pm; Sat 9am–4pm; Sun & Mon closed\nHoliday hours: closed Thanksgiving Day and December 25.",
+            "Tue–Fri 9:30am–6pm; Sat 9am–4pm; Sun & Mon closed; Holiday hours: closed Thanksgiving Day and December 25."
+          ]
+        },
+        "services": {
+          "items": [
+            "Basic tune-up",
+            "Full overhaul",
+            {
+              "anyOf": [
+                "Flat tire repair (tube included)",
+                "Flat tire repair"
+              ]
+            },
+            "Wheel truing",
+            "Brake service",
+            "Bike fitting",
+            "E-bike service"
+          ],
+          "optional": [
+            "free safety check",
+            "same-day service"
+          ]
+        },
+        "area_served": {
+          "items": [
+            "Marrow Falls",
+            {
+              "anyOf": [
+                "Linden Valley",
+                "the Linden Valley"
+              ]
+            }
+          ],
+          "optional": []
+        },
+        "prices": {
+          "items": [
+            {
+              "price": "$79"
+            },
+            {
+              "price": "from $189"
+            },
+            {
+              "price": "$15"
+            },
+            {
+              "price": "$25 per wheel"
+            },
+            {
+              "price": "$35 per wheel"
+            },
+            {
+              "price": "$120"
+            }
+          ],
+          "optional": []
+        }
+      }
+    }
+  }
+}

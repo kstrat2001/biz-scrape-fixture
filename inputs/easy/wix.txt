@@ -1,0 +1,191 @@
+--- output of step `fetch` ---
+<web-page url="https://copperleaf-cycles.example/" kind="home">
+<title>Bike Repair | Copperleaf Cycle Works | Marrow Falls</title>
+<meta-description>Friendly, independent bike repair in Marrow Falls. Tune-ups, flat repairs, wheel truing, brakes and e-bike service. Walk-ins welcome Tuesday to Saturday.</meta-description>
+<structured-data>
+{"@context":"https://schema.org/","@type":"LocalBusiness","name":"Copperleaf Cycle Works","url":"/","image":"https://static.wixstatic.com/media/3f1c2a_8d2e41b0c9a74f5e9b1d6c0a7e2f4b19~mv2.png","telephone":"541-555-0142","address":{"@type":"PostalAddress","streetAddress":"418 Tannery Row, Unit B","addressLocality":"Marrow Falls","addressRegion":"OR","postalCode":"97999","addressCountry":"US"}}
+</structured-data>
+<contact-links>
+tel:5415550142
+mailto:hello@copperleaf-cycles.example
+</contact-links>
+<page-text>
+top of page
+Skip to Main Content
+[![Copperleaf Cycle Works logo]](/)
+- [Home](/)
+- [Services](/book-online)
+- [About](/about-us)
+- [Contact](/contact)
+[541-555-0142](tel:5415550142)
+# Keep your bike rolling.
+Independent, family-owned bike repair in Marrow Falls since 2011.
+[Book a Tune-Up](/book-online)
+## What We Fix
+Tune-Ups
+Gears, brakes and bearings adjusted so your ride feels new again.
+Flat Tire Repair
+Most flats fixed while you wait.
+E-Bike Service
+Hub and mid-drive e-bikes, batteries checked on every visit.
+[See Everything We Do](/book-online)
+## Why Riders Trust Us
+Every mechanic is certified by the Pacific Bicycle Mechanics Guild
+30-day guarantee on all repair work
+Over 400 five-star reviews from riders across the Linden Valley
+“They trued my wheel in twenty minutes and wouldn’t take a tip. Best shop in the valley.”
+— Dana R., Marrow Falls
+## Visit the Shop
+We’re on Tannery Row, two doors down from the old feed mill. Free parking out back. We serve riders in Marrow Falls and across the Linden Valley.
+### Opening Hours
+Tue – Fri: 9:30 AM – 6:00 PM
+Sat: 9:00 AM – 4:00 PM
+Sun – Mon: Closed
+418 Tannery Row, Unit B
+Marrow Falls, OR 97999
+[541-555-0142](tel:5415550142)
+[hello@copperleaf-cycles.example](mailto:hello@copperleaf-cycles.example)
+Parts orders only: 541-555-0177
+© 2026 by Copperleaf Cycle Works. Proudly created with Wix.com
+bottom of page
+</page-text>
+</web-page>
+<web-page url="https://copperleaf-cycles.example/book-online" kind="services">
+<title>Services & Prices | Copperleaf Cycle Works</title>
+<meta-description>Bike repair services and prices at Copperleaf Cycle Works in Marrow Falls.</meta-description>
+<structured-data>
+{"@context":"https://schema.org/","@type":"LocalBusiness","name":"Copperleaf Cycle Works","url":"/","image":"https://static.wixstatic.com/media/3f1c2a_8d2e41b0c9a74f5e9b1d6c0a7e2f4b19~mv2.png","telephone":"541-555-0142","address":{"@type":"PostalAddress","streetAddress":"418 Tannery Row, Unit B","addressLocality":"Marrow Falls","addressRegion":"OR","postalCode":"97999","addressCountry":"US"}}
+</structured-data>
+<contact-links>
+tel:5415550142
+mailto:hello@copperleaf-cycles.example
+</contact-links>
+<page-text>
+top of page
+Skip to Main Content
+[![Copperleaf Cycle Works logo]](/)
+- [Home](/)
+- [Services](/book-online)
+- [About](/about-us)
+- [Contact](/contact)
+[541-555-0142](tel:5415550142)
+# Services
+Every job starts with a free safety check. Prices include labor; parts are extra unless noted.
+## Basic Tune-Up
+1 hr
+$79 79 US dollars
+Book Now
+## Full Overhaul
+4 hr
+from $189 from 189 US dollars
+Book Now
+## Flat Tire Repair
+30 min · tube included
+$15 15 US dollars
+Book Now
+## Wheel Truing
+30 min · per wheel
+$25 25 US dollars
+Book Now
+## Brake Service
+45 min · per wheel
+$35 35 US dollars
+Book Now
+## Bike Fitting
+1 hr 30 min
+$120 120 US dollars
+Book Now
+## E-Bike Service
+Varies
+Call for a quote Call for a quote
+Book Now
+Most tune-ups are ready within two business days. Need it sooner? Ask about same-day service.
+418 Tannery Row, Unit B
+Marrow Falls, OR 97999
+[541-555-0142](tel:5415550142)
+[hello@copperleaf-cycles.example](mailto:hello@copperleaf-cycles.example)
+Parts orders only: 541-555-0177
+© 2026 by Copperleaf Cycle Works. Proudly created with Wix.com
+bottom of page
+</page-text>
+</web-page>
+<web-page url="https://copperleaf-cycles.example/contact" kind="contact">
+<title>Contact | Copperleaf Cycle Works</title>
+<meta-description>Find Copperleaf Cycle Works on Tannery Row in Marrow Falls. Call, email or send us a message.</meta-description>
+<structured-data>
+{"@context":"https://schema.org/","@type":"LocalBusiness","name":"Copperleaf Cycle Works","url":"/","image":"https://static.wixstatic.com/media/3f1c2a_8d2e41b0c9a74f5e9b1d6c0a7e2f4b19~mv2.png","telephone":"541-555-0142","address":{"@type":"PostalAddress","streetAddress":"418 Tannery Row, Unit B","addressLocality":"Marrow Falls","addressRegion":"OR","postalCode":"97999","addressCountry":"US"}}
+</structured-data>
+<contact-links>
+tel:5415550142
+mailto:hello@copperleaf-cycles.example
+</contact-links>
+<page-text>
+top of page
+Skip to Main Content
+[![Copperleaf Cycle Works logo]](/)
+- [Home](/)
+- [Services](/book-online)
+- [About](/about-us)
+- [Contact](/contact)
+[541-555-0142](tel:5415550142)
+# Contact
+### Visit
+418 Tannery Row, Unit B
+Marrow Falls, OR 97999
+### Call or Email
+Phone: [541-555-0142](tel:5415550142)
+Email: [hello@copperleaf-cycles.example](mailto:hello@copperleaf-cycles.example)
+### Hours
+Monday: Closed
+Tuesday – Friday: 9:30 AM – 6:00 PM
+Saturday: 9:00 AM – 4:00 PM
+Sunday: Closed
+Holiday hours: closed Thanksgiving Day and December 25.
+## Book a Repair
+Name
+Email
+What does your bike need?
+Submit
+418 Tannery Row, Unit B
+Marrow Falls, OR 97999
+[541-555-0142](tel:5415550142)
+[hello@copperleaf-cycles.example](mailto:hello@copperleaf-cycles.example)
+Parts orders only: 541-555-0177
+© 2026 by Copperleaf Cycle Works. Proudly created with Wix.com
+bottom of page
+</page-text>
+</web-page>
+<web-page url="https://copperleaf-cycles.example/about-us" kind="about">
+<title>About | Copperleaf Cycle Works</title>
+<meta-description>Copperleaf Cycle Works has kept Marrow Falls riding since 2011.</meta-description>
+<structured-data>
+{"@context":"https://schema.org/","@type":"LocalBusiness","name":"Copperleaf Cycle Works","url":"/","image":"https://static.wixstatic.com/media/3f1c2a_8d2e41b0c9a74f5e9b1d6c0a7e2f4b19~mv2.png","telephone":"541-555-0142","address":{"@type":"PostalAddress","streetAddress":"418 Tannery Row, Unit B","addressLocality":"Marrow Falls","addressRegion":"OR","postalCode":"97999","addressCountry":"US"}}
+</structured-data>
+<contact-links>
+tel:5415550142
+mailto:hello@copperleaf-cycles.example
+</contact-links>
+<page-text>
+top of page
+Skip to Main Content
+[![Copperleaf Cycle Works logo]](/)
+- [Home](/)
+- [Services](/book-online)
+- [About](/about-us)
+- [Contact](/contact)
+[541-555-0142](tel:5415550142)
+# About Us
+Copperleaf Cycle Works opened in 2011 in a one-bay garage on Tannery Row. Fifteen years later we’re still a family shop, just with a bigger bay and more stands.
+Our mechanics are certified by the Pacific Bicycle Mechanics Guild, and every repair carries our 30-day guarantee. We work on road, mountain, kids’ and cargo bikes, and on most e-bikes.
+We’re proud members of the Linden Valley Chamber of Commerce.
+418 Tannery Row, Unit B
+Marrow Falls, OR 97999
+[541-555-0142](tel:5415550142)
+[hello@copperleaf-cycles.example](mailto:hello@copperleaf-cycles.example)
+Parts orders only: 541-555-0177
+© 2026 by Copperleaf Cycle Works. Proudly created with Wix.com
+bottom of page
+</page-text>
+</web-page>
+
+A business's website is above, as one or more `<web-page>` blocks. Answer the questions in your instructions about this business, using only what those pages say, as one JSON object.

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "name": "biz-scrape-fixture",
+  "version": "1.0",
+  "satisfies": "biz-scrape-fixture@1.0",
+  "required_files": [
+    "LICENSE",
+    "grade.py",
+    "expected.json",
+    "SHA256SUMS",
+    "evals/easy.json",
+    "inputs/easy/wordpress.txt",
+    "inputs/easy/wix.txt",
+    "site/wordpress/index.html",
+    "site/wix/index.html",
+    "roles/web-probe.json",
+    "roles/web-probe.md",
+    "workloads/biz-scrape-easy-wordpress.json",
+    "workloads/biz-scrape-easy-wix.json"
+  ]
+}
