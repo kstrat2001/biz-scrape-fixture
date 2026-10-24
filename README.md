@@ -54,7 +54,7 @@ on-request items go in `pricing_note`.
 
 ## Running it
 
-`workloads/biz-scrape-easy-<case>.json` are darkmux lab workloads (provider
+`eval/workloads/biz-scrape-easy-<case>.json` are darkmux lab workloads (provider
 `prompt`, needs darkmux 5.5 or later): `darkmux lab run biz-scrape-easy-wix`
 with this fixture registered. A model may reply until its context window is
 full: the reply room is the profile's context window less the prompt, and both
@@ -67,7 +67,7 @@ the same grading.
 
 ## Grading
 
-`expected.json` (written by `tools/make_exact.py`) holds every accepted answer
+`eval/expected.json` (written by `tools/make_exact.py`) holds every accepted answer
 for the eight graded fields: business name, phone, email, address, hours,
 services, area served and prices. A value passes when, trimmed, it equals one
 accepted spelling exactly: case, punctuation and spacing all count. The
@@ -79,6 +79,15 @@ the site does say that the role leaves room to list (a free safety check as a
 service). Any other extra fails the field. The other web-probe fields are not
 graded.
 
-The lab workloads in `workloads/` carry the same rule as `verify.expect`
-(written by `tools/make_workloads.py`); `grade.py <case> <answer.json>` is the
-stdlib reference, and `python3 test/test_grade.py` its self-test.
+The lab workloads in `eval/workloads/` carry the same rule as `verify.expect`
+(written by `tools/make_workloads.py` from `eval/expected.json`, the one answer
+key; `python3 test/test_workloads.py` fails if they drift); `eval/grade.py
+<case> <answer.json>` is the stdlib reference, and `python3 test/test_grade.py`
+its self-test.
+
+## The eval is defined here
+
+From 1.1 this repository defines the whole eval. `eval/` holds the darkmux
+workloads, the answer key and the reference grader; darkmux processes the eval
+and does not define it. `eval/` is never copied into the model's sandbox, and
+runs report the sha256 of the workload document they used.

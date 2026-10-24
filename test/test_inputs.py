@@ -16,7 +16,7 @@ def check(name, ok):
     failed += not ok
 
 
-expected = json.loads((HERE / "expected.json").read_text())
+expected = json.loads((HERE / "eval" / "expected.json").read_text())
 for case in ("wordpress", "wix"):
     committed = (HERE / "inputs" / "easy" / f"{case}.txt").read_text()
     rendered = subprocess.run([sys.executable, str(HERE / "tools" / "render_input.py"), case],

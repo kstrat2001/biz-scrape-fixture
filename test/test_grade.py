@@ -43,7 +43,7 @@ def grade(case, change):
     change(a)
     with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as f:
         json.dump(a, f)
-    r = subprocess.run([sys.executable, str(HERE / "grade.py"), case, f.name], capture_output=True, text=True)
+    r = subprocess.run([sys.executable, str(HERE / "eval" / "grade.py"), case, f.name], capture_output=True, text=True)
     return json.loads(r.stdout)
 
 

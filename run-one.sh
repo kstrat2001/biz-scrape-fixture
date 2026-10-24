@@ -67,7 +67,7 @@ try:
     d=json.loads(t); t=d['final_assistant'] if isinstance(d,dict) and isinstance(d.get('final_assistant'),str) else t
 except ValueError: pass
 open(sys.argv[2],'w').write(t)" "$raw" "$answer"
-  grade=$(python3 "$here/grade.py" "$case" "$answer" | python3 -c 'import json,sys;print(json.dumps(json.load(sys.stdin)))') || true
+  grade=$(python3 "$here/eval/grade.py" "$case" "$answer" | python3 -c 'import json,sys;print(json.dumps(json.load(sys.stdin)))') || true
 else
   grade='{"passed": false, "error": "no answer written"}'
 fi

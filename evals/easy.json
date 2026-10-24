@@ -19,5 +19,5 @@
       "input": "inputs/easy/wix.txt"
     }
   ],
-  "pass": "every case passes: all eight graded fields match expected.json exactly (the lab workloads in workloads/ carry the same rule; grade.py is the stdlib reference)"
+  "pass": "every case passes: all eight graded fields match eval/expected.json exactly (the lab workloads in eval/workloads/ carry the same rule, generated from it; eval/grade.py is the stdlib reference)"
 }
