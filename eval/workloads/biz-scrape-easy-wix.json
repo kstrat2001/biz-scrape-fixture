@@ -4,7 +4,7 @@
     "id": "biz-scrape-easy-wix",
     "provider": "prompt",
     "role": "web-probe",
-    "requires_fixture": "biz-scrape-fixture@1.0",
+    "requires_fixture": "biz-scrape-fixture@1.1",
     "promptFile": "inputs/easy/wix.txt",
     "replyRoom": "context",
     "verify": {

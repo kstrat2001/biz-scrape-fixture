@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Writes expected.json: every accepted answer, spelled exactly as the
+"""Writes eval/expected.json: every accepted answer, spelled exactly as the
 case's pages show it. A value the pages split over lines (address, hours) is
 accepted with its lines joined by "; ", as the role asks, or by line breaks. A list answer must hold every
 required item and may also hold the named optional ones: things the site does
@@ -86,4 +86,4 @@ for case, c in CASES.items():
         "prices": c["prices"],
         "optional": c["optional"],
     }
-(HERE / "expected.json").write_text(json.dumps(out, indent=2, ensure_ascii=False) + "\n")
+(HERE / "eval" / "expected.json").write_text(json.dumps(out, indent=2, ensure_ascii=False) + "\n")
