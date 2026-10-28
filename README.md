@@ -44,7 +44,7 @@ markdown, in web-probe's `<web-page>` block format) and listed in
 `SHA256SUMS`. `python3 test/test_inputs.py` checks that the committed inputs
 match a fresh render and carry every graded answer word for word.
 
-The role is the fixture's own `web-probe` in `roles/`, pinned by
+The role is the fixture's own `web-probe` in `eval/roles/`, pinned by
 `role_sha256` in `evals/easy.json`. It is darkmux's web-probe with the
 directions made explicit for an eval: every graded value is copied exactly
 from the site, a value written over several lines has its lines joined by

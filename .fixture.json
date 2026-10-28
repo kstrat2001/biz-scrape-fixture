@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "name": "biz-scrape-fixture",
-  "version": "1.1",
+  "version": "1.2",
   "satisfies": "biz-scrape-fixture@1.1",
   "required_files": [
     "LICENSE",
@@ -13,10 +13,10 @@
     "inputs/easy/wix.txt",
     "site/wordpress/index.html",
     "site/wix/index.html",
-    "roles/web-probe.json",
-    "roles/web-probe.md",
     "eval/workloads/biz-scrape-easy-wordpress.json",
-    "eval/workloads/biz-scrape-easy-wix.json"
+    "eval/workloads/biz-scrape-easy-wix.json",
+    "eval/roles/web-probe.json",
+    "eval/roles/web-probe.md"
   ],
   "eval_dir": "eval"
 }
