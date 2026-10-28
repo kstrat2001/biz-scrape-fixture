@@ -8,6 +8,19 @@ The business, Copperleaf Cycle Works in Marrow Falls, is invented. Phone
 numbers use the 555-01xx range reserved for fiction; the domain is `.example`,
 which can never resolve.
 
+## At a glance
+
+| | |
+| --- | --- |
+| Kind | Structured output: no tools; the model reads the site as text and replies with one JSON object |
+| Version | 1.2 (tag `1.2`, commit `adc974e`) |
+| Criteria | Eight graded fields per case (listed under [Grading](#grading)); a run passes when every field of every case matches |
+| Results | [evals.darkmux.com/evals/biz-scrape-fixture](https://evals.darkmux.com/evals/biz-scrape-fixture) |
+| Needs | darkmux 5.9.0 or later |
+| License | MIT |
+
+The eval's page on evals.darkmux.com names the approved commit.
+
 ## Evals
 
 Each file in `evals/` is one eval: one row on evals.darkmux.com, with its own
@@ -54,12 +67,27 @@ on-request items go in `pricing_note`.
 
 ## Running it
 
-`eval/workloads/biz-scrape-easy-<case>.json` are darkmux lab workloads (provider
-`prompt`, needs darkmux 5.5 or later): `darkmux lab run biz-scrape-easy-wix`
-with this fixture registered. A model may reply until its context window is
-full: the reply room is the profile's context window less the prompt, and both
-are recorded with the run, since context is the machine's configuration, not
-the eval's.
+```bash
+git clone https://github.com/kstrat2001/biz-scrape-fixture
+cd biz-scrape-fixture
+git checkout <approved commit>     # named on the eval's page
+darkmux lab fixture register .
+darkmux lab run biz-scrape-easy-wordpress -p <profile>
+darkmux lab run biz-scrape-easy-wix -p <profile>
+darkmux run inspect <run id>       # the verdict, time and turns
+```
+
+`eval/workloads/biz-scrape-easy-<case>.json` are the lab workloads (provider
+`prompt`). A model may reply until its context window is full: the reply room
+is the profile's context window less the prompt, and both are recorded with the
+run, since context is the machine's configuration, not the eval's.
+
+Leave the checkout unchanged: a run from any other commit, or from a checkout
+with changes in it, cannot be shared. To share runs on evals.darkmux.com, run
+`darkmux lab submit <run id> [<run id>...] --dry-run` to see exactly what would
+be sent, then the same command without `--dry-run`. The
+[share-runs guide](https://darkmux.com/guide/share-runs.html) covers upload
+access and what a bundle carries.
 
 `run-one.sh` runs one case outside the lab, with `darkmux dispatch
 --message-from-file`, the role installed into a separate `DARKMUX_HOME`, and
@@ -91,3 +119,7 @@ From 1.1 this repository defines the whole eval. `eval/` holds the darkmux
 workloads, the answer key and the reference grader; darkmux processes the eval
 and does not define it. `eval/` is never copied into the model's sandbox, and
 runs report the sha256 of the workload document they used.
+
+## License
+
+MIT. See `LICENSE`.
