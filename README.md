@@ -78,9 +78,10 @@ darkmux run inspect <run id>       # the verdict, time and turns
 ```
 
 `eval/workloads/biz-scrape-easy-<case>.json` are the lab workloads (provider
-`prompt`). A model may reply until its context window is full: the reply room
-is the profile's context window less the prompt, and both are recorded with the
-run, since context is the machine's configuration, not the eval's.
+`prompt`). A model may reply until its context window is full. The room for
+the reply is the profile's context window less the prompt; both are recorded
+with the run, because context is part of the machine's configuration, not the
+eval's.
 
 Leave the checkout unchanged: a run from any other commit, or from a checkout
 with changes in it, cannot be shared. To share runs on evals.darkmux.com, run
